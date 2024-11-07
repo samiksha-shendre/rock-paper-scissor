@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+}
+h1{
+    background-color: #1f0d35;
+    color: white;
+    padding: 20px;
+}
+.images{
+    height: 200px;
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px auto;
+    padding-top: 20px;
+}
+.img{
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 5px solid transparent;
+}
+.img:hover{
+    border: 5px solid black;
+}
+#rock{
+    background-image: url(/images/rock.png);
+}
+#paper{
+    background-image: url(/images/paper.png);
+}
+#scissor{
+    background-image: url(/images/scissors.png);
+}
+.scores{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+.your_num_score {
+    font-size: 60px;
+}
+.your_score{
+    font-size: 25px;
+}
+.comp_num_score {
+    font-size: 60px;
+}
+.comp_score{
+    font-size: 25px;
+}
+.result{
+    height: 50px;
+    width: fit-content;
+    background-color: #1f0d35;
+    color: white;
+    font-size: 30px;
+    line-height: 150%;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 170%;
+}
